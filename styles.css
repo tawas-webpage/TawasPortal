@@ -31,3 +31,38 @@ nav a:hover {
     background-color: #ff3399;
     color: black;
 }
+
+
+
+
+
+
+
+
+.side-menu {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+}
+
+.side-menu a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-menu a:hover {
+    color: #f1f1f1;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 16px;
+}
