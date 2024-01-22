@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #ddd;
     padding: 10px;
 }
 
@@ -27,6 +27,6 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ddd;
+    background-color: #ff3399;
     color: black;
 }
