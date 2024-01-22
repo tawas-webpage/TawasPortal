@@ -45,7 +45,7 @@ nav a:hover {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #000000;
     padding-top: 20px;
 }
 
@@ -53,13 +53,13 @@ nav a:hover {
     padding: 15px;
     text-decoration: none;
     font-size: 18px;
-    color: #818181;
+    color: #ff3399;
     display: block;
     transition: 0.3s;
 }
 
 .side-menu a:hover {
-    color: #f1f1f1;
+    color: #ff0080;
 }
 
 .content {
