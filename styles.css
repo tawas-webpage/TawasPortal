@@ -59,22 +59,10 @@ nav a:hover {
     transition: 0.3s;
 }
 
-.hover-box {
-    width: 10px; 
-    height: 10px; 
-    background-color: transparent;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    transition: background-color 0.3s;
 
 .side-menu a:hover {
-    color: #ff3399;
+    color: #ff0000;
 }
-
-.side-menu li:hover .hover-box {
-    background-color: #000000;
 
 .content {
     margin-left: 250px;
