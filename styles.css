@@ -61,7 +61,8 @@ nav a:hover {
 
 
 .side-menu a:hover {
-    color: #ff0000;
+    color: #000000;
+    background-color: #ff3399;
 }
 
 .content {
