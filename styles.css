@@ -5,6 +5,11 @@ body {
 header {
     background-color: #ddd;
     padding: 10px;
+    text-align: center;
+}
+
+nav {
+    display: inline-block;
 }
 
 nav ul {
@@ -15,7 +20,8 @@ nav ul {
 }
 
 nav li {
-    float: top;
+    float: inline;
+     margin-right: 10px;
 }
 
 nav a {
