@@ -20,13 +20,13 @@ nav ul {
 }
 
 nav li {
-    float: inline;
-     margin-right: 10px;
+    float: top;
+    margin-right: 10px;
 }
 
 nav a {
     display: block;
-    color: magenta;
+    color: #ff3399;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
