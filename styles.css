@@ -47,6 +47,7 @@ nav a:hover {
     left: 0;
     background-color: #000000;
     padding-top: 20px;
+    border-right: 1px solid #ff3399; 
 }
 
 .side-menu a {
