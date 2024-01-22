@@ -70,11 +70,11 @@ nav a:hover {
     transition: background-color 0.3s;
 
 .side-menu a:hover {
-    color: #000000;
+    color: #ff3399;
 }
 
 .side-menu li:hover .hover-box {
-    background-color: #ff3399;
+    background-color: #000000;
 
 .content {
     margin-left: 250px;
