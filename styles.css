@@ -41,17 +41,17 @@ nav a:hover {
 
 .side-menu {
     height: 100%;
-    width: 250px;
+    width: 230px;
     position: fixed;
     top: 0;
     left: 0;
     background-color: #000000;
     padding-top: 20px;
-    border-right: 5px solid #ff3399; 
+    border-right: 3px solid #ff3399; 
 }
 
 .side-menu a {
-    padding: 15px;
+    padding: 20px;
     text-decoration: none;
     font-size: 21px;
     color: #ff3399;
