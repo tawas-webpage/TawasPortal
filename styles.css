@@ -125,6 +125,13 @@ nav a:hover {
 
 
 
+.mobile-header {
+    padding: 6px 8px 9px 8px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px 14px 5px 11px;
+    border-radius: 32px;
+}
 
 
 
