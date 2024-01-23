@@ -90,6 +90,7 @@ nav a:hover {
 
 
 
+
 .sidebar .closebtn {
   position: absolute;
   top: 0;
@@ -131,6 +132,13 @@ nav a:hover {
     display: inline-block;
     margin: 5px 14px 5px 11px;
     border-radius: 32px;
+}
+
+.mobile-header-top {
+    display: block;
+    height: 50px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 }
 
 
