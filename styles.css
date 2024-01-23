@@ -48,23 +48,7 @@ nav a:hover {
     background-color: #000000;
     padding-top: 20px;
     border-right: 5px solid #ff3399; 
-    font-size: 14px;
-    list-style: none;
-    font-weight: 300;
-    display: block;
-    z-index: 16;
-    -webkit-transition: all 0.3s ease-in-out 0.2s;
-    -moz-transition: all 0.3s ease-in-out 0.2s;
-    -o-transition: all 0.3s ease-in-out 0.2s;
-    transition: all 0.3s ease-in-out 0.2s;
-    overflow: hidden;
-    overflow-x: hidden;
-    overflow-y: auto;
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-}
+
 
 }
 
