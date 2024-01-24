@@ -48,7 +48,7 @@ nav a:hover {
     background-color: #000000;
     padding-top: 20px;
     border-right: 5px solid #ff3399; 
-
+    transition: width 0.3s; 
 
 }
 
@@ -67,14 +67,22 @@ nav a:hover {
     background-color: #ff3399;
 }
 
+
+.hover-box {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    transition: background-color 0.3s;
+}
+
 .content {
     margin-left: 275px;
     padding: 25px;
 }
-
-
-
-
 
 
 @media screen and (max-width: 768px) {
@@ -86,9 +94,6 @@ nav a:hover {
         margin-left: 0;
     }
 }
-
-
-
 
 
 
