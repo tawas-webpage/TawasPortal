@@ -93,10 +93,8 @@ nav a:hover {
     .content {
         margin-left: 150px;
     }
-}
-
-
-#myHeader {
+    
+    #myHeader {
         font-size: 1.5em; 
     }
 }
