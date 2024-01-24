@@ -87,11 +87,11 @@ nav a:hover {
 
 @media screen and (max-width: 768px) {
     .side-menu {
-        width: 100%;
+        width: 150px;
     }
 
     .content {
-        margin-left: 0;
+        margin-left: 150px;
     }
 }
 
@@ -130,11 +130,6 @@ nav a:hover {
 #main {
   transition: margin-left .5s; 
   padding: 20px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
 }
 
 
