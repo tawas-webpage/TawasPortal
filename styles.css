@@ -102,9 +102,11 @@ nav a:hover {
     }
     
     .myHeader {
-        font-size: 0.3em; 
+        background-color: black;
+        padding: 30px;
+        color: #ff3399;
+        text-align: center;
         display: inline-block;
-        margin-left: 50px;
     }
 }
 
