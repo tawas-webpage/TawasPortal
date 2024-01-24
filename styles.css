@@ -73,6 +73,22 @@ nav a:hover {
     background-color: #ff3399;
 }
 
+}
+
+.nav-link {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #f1f1f1;
+}
+
 
 .hover-box {
     width: 10px;
