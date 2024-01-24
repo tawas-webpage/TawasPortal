@@ -75,6 +75,31 @@ nav a:hover {
 
 
 
+
+
+@media screen and (max-width: 768px) {
+    .side-menu {
+        width: 100%;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .sidebar .closebtn {
   position: absolute;
   top: 0;
