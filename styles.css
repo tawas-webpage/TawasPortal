@@ -104,11 +104,16 @@ nav a:hover {
         margin-left: 150px;
         font-size: 0.8em;
     }
+    
+    .side-menu::-webkit-scrollbar {
+    width: 6px; 
+        
+    }
 }
 
 
 .side-menu::-webkit-scrollbar {
-    width: 6px; 
+    width: 8px; 
 }
 
 .side-menu::-webkit-scrollbar-thumb {
@@ -118,7 +123,7 @@ nav a:hover {
 .side-menu::-webkit-scrollbar-track {
     background-color: #111;
 
-
+}
 
 
 
