@@ -24,6 +24,34 @@ document.addEventListener(
     false
 );
 
+document.addEventListener('DOMContentLoaded', function () {
+    const sections = document.querySelectorAll('.content section');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    function changeNavOnScroll() {
+        let currentSection = '';
+
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+
+            if (pageYOffset >= sectionTop - sectionHeight / 3) {
+                currentSection = section.id;
+            }
+        });
+
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href').substring(1) === currentSection) {
+                link.classList.add('active');
+            }
+        });
+    }
+
+    document.addEventListener('scroll', changeNavOnScroll);
+    changeNavOnScroll();
+});
+
 
 
 
@@ -32,7 +60,7 @@ function openNav() {
   document.getElementById("main").style.marginLeft = "250px";
 }
 
-/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+
 function closeNav() {
   document.getElementById("mySidebar").style.width = "0";
   document.getElementById("main").style.marginLeft = "0";
