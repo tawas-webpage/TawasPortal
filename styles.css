@@ -100,9 +100,8 @@ nav a:hover {
     }
     
     .myHeader {
-        margin-left: 50px;
-        font-size: 0.8em; /* Adjust font size as needed for smaller screens */
-        background-color: /* your desired color for smaller screens */;
+        margin-left: 75px;
+        font-size: 0.8em;
     }
 }
 
