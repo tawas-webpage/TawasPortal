@@ -104,6 +104,7 @@ nav a:hover {
     .myHeader {
         font-size: 0.3em; 
         display: inline-block;
+        margin-left: 50px;
     }
 }
 
