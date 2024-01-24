@@ -107,9 +107,24 @@ nav a:hover {
 }
 
 
+.side-menu::-webkit-scrollbar {
+    width: 12px; 
+}
+
+.side-menu::-webkit-scrollbar-thumb {
+    background-color: #ff3399; 
+}
+
+.side-menu::-webkit-scrollbar-track {
+    background-color: #111;
 
 
 
+
+
+
+
+    
 .sidebar .closebtn {
   position: absolute;
   top: 0;
