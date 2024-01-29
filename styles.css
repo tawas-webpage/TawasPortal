@@ -2,6 +2,12 @@ body {
     margin: 16;
 }
 
+
+
+.header-image {
+background-image: url(“https://i.ibb.co/8xbVM48/Screenshot-2024-01-29-at-18-04-29.png”);
+}
+
 header {
     background-color: #000000;
     padding: 10px;
