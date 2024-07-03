@@ -351,3 +351,23 @@ details.comment:not([open]) .comment-heading::after {
 .d-none {
     display: none;
 }
+
+
+
+
+
+    <div class="content">
+        <section id="section1">
+            <h3 id="myHeader2"><center><ins>WEBPAGE NAVIGATION SEGMENT</ins></center>
+            </h3>
+                <nav>
+        <ul>
+            <li><a href="https://tawas-webpage.github.io/TawasClothingPortfolio">My Clothing Portfolio</a> </li>
+            <li><a href="https://tawas-webpage.github.io/DipteraPage">My Diptera Page</a> </li>
+            <li><a href="https://tawas-webpage.github.io/TabistryManual">My Tabistry Manual (WIP)</a></li>
+            <li><a href="https://tawas-webpage.github.io/Waffles/#Home">My Waffle Site</a></li>
+            <li><a href="https://www.youtube.com/@tawa./featured">My YouTube Channel</a> </li>
+            <li><a href="https://spacehey.com/tawa">My SpaceHey</a> </li>
+        </ul>
+                </nav>
+        </section>
