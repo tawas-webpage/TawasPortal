@@ -85,7 +85,7 @@ section {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #000000;
     z-index: 1000;
     margin: 50;
 }
@@ -95,7 +95,7 @@ section {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #000000;
 }
 
 .navbar ul li {
@@ -104,14 +104,15 @@ section {
 
 .navbar ul li a {
     display: block;
-    color: white;
+    color:  #ff3399;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .navbar ul li a:hover {
-    background-color: #111;
+    background-color:  #ff3399;
+    color: #000000;
 }
 
 .content {
