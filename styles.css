@@ -94,7 +94,7 @@ section {
     width: 100%;
     background-color: #000000;
     z-index: 1000;
-    display: flex;
+    display: inline;
     justify-content: flex-end; /* Aligns the items to the right */
     padding-right: 20px; /* Add padding to the right for better spacing */
 }
