@@ -56,7 +56,7 @@ nav a:hover {
 .top-nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 80;
     display: flex;
     justify-content: flex-end; /* Aligns the items to the right */
     padding-right: 20px; /* Add padding to the right for better spacing */
