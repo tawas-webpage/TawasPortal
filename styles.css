@@ -19,6 +19,8 @@ nav ul {
     overflow: hidden;
 }
 
+
+
 nav li {
     float: top;
     margin-right: 10px;
@@ -39,6 +41,9 @@ nav a:hover {
 }
 
 
+
+
+
 .top-nav {
     position: fixed;
     top: 0;
@@ -53,11 +58,13 @@ nav a:hover {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end; /* Aligns the items to the right */
+    padding-right: 20px; /* Add padding to the right for better spacing */
+}
 }
 
 .top-nav li {
-    display: inline;
+    display: flex;
 }
 
 .top-nav a {
