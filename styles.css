@@ -43,7 +43,7 @@ nav a:hover {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #000000;
     overflow: hidden;
     z-index: 1000;
 }
@@ -69,7 +69,7 @@ nav a:hover {
 }
 
 .top-nav a:hover {
-    background-color: #ddd;
+    background-color: #ff3399;
     color: black;
 }
 
