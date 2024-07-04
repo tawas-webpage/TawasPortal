@@ -260,7 +260,7 @@ section {
 
 }
 
-    .side-navbar::-webkit-scrollbar {
+.side-navbar::-webkit-scrollbar {
     width: 9px; 
     height: 5px; 
 }
