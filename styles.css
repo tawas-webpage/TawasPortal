@@ -313,11 +313,11 @@ section {
 .playlist-container {
     width: 100%;
     height: 100%;
-    max-width: 222px; /* Adjust as needed */
-    max-height: 400px; /* Adjust as needed */
+    max-width: 400px; /* Adjust as needed */
+    max-height: 600px; /* Adjust as needed */
     overflow-y: auto;
-    background-color: #ff3399;
-    border: 5px solid #ff3399;
+    background-color: #fff;
+    border: 1px solid #ddd;
 }
 
 .playlist-container iframe {
