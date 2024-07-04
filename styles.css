@@ -295,6 +295,20 @@ section {
 
 
 
+
+  .comment-section {
+            width: 50%;
+            margin: 0 auto;
+        }
+        .comment-form {
+            margin-bottom: 20px;
+        }
+        .comment {
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+        }
+
 @media screen and (max-width: 768px) {
     .side-menu {
         width: 130px;
