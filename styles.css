@@ -206,6 +206,37 @@ section {
 }
 
 
+.side-menu-b{
+    height: 100%;
+    width: 210px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    padding-top: 20px;
+    border-left: 5px solid #ff3399; 
+    overflow-y: auto;
+    transition: width 0.3s; 
+    float: right;
+
+}
+
+.side-menu c {
+    padding: 25px;
+    text-decoration: none;
+    font-size: 21px;
+    color: #ff3399;
+    display: block;
+    transition: 0.3s;
+}
+
+
+.side-menu c:hover {
+    color: #000000;
+    background-color: #ff3399;
+}
+
+
 
 
 .side-menu::-webkit-scrollbar {
