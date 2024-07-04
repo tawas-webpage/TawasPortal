@@ -263,12 +263,14 @@ section {
 
     .content {
         margin-left: 110px;
+        width: 60%;
     }
     
     .myHeader {
         margin-top: 100px;
-        margin-left: 70px;
-        font-size: 0.8em;
+        margin-left: 65px;
+        font-size: 0.1em;
+        width: 60%;
     }
     
     .side-menu::-webkit-scrollbar {
@@ -297,8 +299,10 @@ section {
     .navbar {
         justify-content: space-between;
         margin-left: 60px;
+        width: 70%;
     }
 }
+
 
 
 
