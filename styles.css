@@ -267,25 +267,6 @@ section {
 
 @media screen and (max-width: 768px) {
     .side-menu {
-        width: 150px;
-    }
-
-    .content {
-        margin-left: 150px;
-    }
-    
-    .myHeader {
-        margin-left: 150px;
-        font-size: 0.8em;
-    }
-    
-    .side-menu::-webkit-scrollbar {
-    width: 6px; 
-        
-    }
-    
-@media screen and (max-width: 768px) {
-    .side-menu {
         width: 130px;
     }
 
@@ -302,6 +283,7 @@ section {
     width: 6px; 
         
     }
+    
      .nav-menu {
         display: none;
         flex-direction: column;
@@ -320,13 +302,9 @@ section {
         border-top: 1px solid #ff3399;
     }
 
-    .nav-toggle {
-        display: block;
-    }
-
     .navbar {
         justify-content: space-between;
-        padding: 10px 20px;
+        margin-left: 60px;
     }
 }
 
