@@ -167,35 +167,6 @@ section {
     padding-top: 90px; /* Adjust based on the height of your navbar */
 }
 
-@media (max-width: 768px) {
-    .nav-menu {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background-color: #333;
-    }
-
-    .nav-menu li {
-        margin: 0;
-        width: 100%;
-        text-align: center;
-    }
-
-    .nav-menu li a {
-        padding: 10px;
-        border-top: 1px solid #444;
-    }
-
-    .nav-toggle {
-        display: block;
-    }
-
-    .navbar {
-        justify-content: space-between;
-        padding: 10px 20px;
-    }
-}
-
 .myHeader {
     background-color: black;
     padding: 50px;
@@ -316,7 +287,53 @@ section {
     width: 6px; 
         
     }
+    
+@media screen and (max-width: 768px) {
+    .side-menu {
+        width: 130px;
+    }
+
+    .content {
+        margin-left: 150px;
+    }
+    
+    .myHeader {
+        margin-left: 150px;
+        font-size: 0.8em;
+    }
+    
+    .side-menu::-webkit-scrollbar {
+    width: 6px; 
+        
+    }
+     .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #000000;
+    }
+
+    .nav-menu li {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-menu li a {
+        padding: 10px;
+        border-top: 1px solid #ff3399;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .navbar {
+        justify-content: space-between;
+        padding: 10px 20px;
+    }
 }
+
 
 
 
