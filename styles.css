@@ -311,7 +311,7 @@ section {
 
 
 .playlist-container {
-    width: 100%;
+    width: 80%;
     height: 100%;
     max-width: 222px; /* Adjust as needed */
     max-height: 400px; /* Adjust as needed */
