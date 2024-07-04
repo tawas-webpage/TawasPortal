@@ -209,15 +209,16 @@ section {
 .side-navbar {
     position: fixed;
     right: 0;
-    top: 60px; /* Adjust based on the height of your top navbar */
-    width: 200px;
-    background-color: #444;
+    top: 0px; /* Adjust based on the height of your top navbar */
+    width: 222px;
+    background-color: #000000;
+    border-left: 5px solid #ff3399;
     height: 100%;
-    z-index: 1000;
+    z-index: 000;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .side-navbar ul {
@@ -232,17 +233,17 @@ section {
 
 .side-navbar ul li a {
     display: block;
-    color: white;
+    color: #ff3399;
     text-align: center;
     padding: 14px;
     text-decoration: none;
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid #ff3399;
 }
 
 .side-navbar ul li a:hover {
-    background-color: #111;
+    background-color: #ff3399;
+    color: #000000;
 }
-
 
 
 .side-menu::-webkit-scrollbar {
