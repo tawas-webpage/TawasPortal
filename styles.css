@@ -116,7 +116,7 @@ section {
     width: 80%;
     background-color: #000000;
     z-index: 000;
-    display: inline;
+    display: flex;
     justify-content: flex-end; /* Aligns the items to the right */
     padding-right: 20px; /* Add padding to the right for better spacing */
 }
@@ -133,13 +133,12 @@ section {
     float: right;
 }
 
-ul {}
 
 .navbar ul li {
     float: left;
     margin-left: 20px; /* Add margin between the links */
 }
-}
+
 
 .navbar ul li a {
     display: block;
