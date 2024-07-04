@@ -317,7 +317,7 @@ section {
     max-height: 400px; /* Adjust as needed */
     overflow-y: auto;
     background-color: #ff3399;
-    border: 1px solid #ddd;
+    border: 5px solid #ff3399;
 }
 
 .playlist-container iframe {
@@ -326,15 +326,6 @@ section {
     border: none;
 }
 
-.video-container {
-    border: 5px solid pink; /* Adjust the width and color of the border as needed */
-    padding: 10px; /* Optional: Adds some space between the iframe and the border */
-    display: inline-block; /* Ensures the border wraps tightly around the iframe */
-}
-
-.video-container iframe {
-    display: block; /* Removes any inline spacing issues with iframes */
-}
 
 @media screen and (max-width: 768px) {
     .side-menu {
