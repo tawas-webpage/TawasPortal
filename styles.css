@@ -109,9 +109,11 @@ section {
 
 
 .navbar {
-    position: fixed;
+   position: fixed;
     top: 0;
-    width: 98%;
+    margin-left: 150px;
+    margin-right: 40px;
+    width: 80%;
     background-color: #000000;
     z-index: 000;
     display: inline;
