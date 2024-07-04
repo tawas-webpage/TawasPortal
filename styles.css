@@ -63,6 +63,17 @@ nav a:hover {
 }
 }
 
+   padding: 80;
+    display: flex;
+    justify-content: flex-end; /* Aligns the items to the right */
+    padding-right: 50px; /* Add padding to the right for better spacing */
+}
+}
+
+.top-nav li {
+    display: inline;
+}
+
 .top-nav li {
     display: flex;
 }
@@ -73,6 +84,97 @@ nav a:hover {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+}
+
+.top-nav a:hover {
+    background-color: #ff3399;
+    color: black;
+}
+
+section {
+    padding: 60px 20px;
+    margin-top: 100px; /* Adjust this value if the nav bar height changes */
+}
+/* styles.css */
+
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    z-index: 1000;
+    display: inline;
+    justify-content: flex-end; /* Aligns the items to the right */
+    padding-right: 20px; /* Add padding to the right for better spacing */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    display: flex; /* Use flexbox for alignment */
+}
+
+.navbar ul li {
+    float: left;
+    margin-left: 20px; /* Add margin between the links */
+}
+}
+
+.navbar ul li a {
+    display: block;
+    color:  #ff3399;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color:  #ff3399;
+    color: #000000;
+}
+
+.content {
+    padding-top: 80px; /* Adjust based on the height of your navbar */
+}
+
+.myHeader {
+    background-color: black;
+    padding: 30px;
+    color: #ff3399;
+    text-align: center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+.side-menu {
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    padding-top: 20px;
+    border-right: 5px solid #ff3399; 
+    overflow-y: auto;
+    transition: width 0.3s; 
+
+}
+
 .side-menu a {
     padding: 25px;
     text-decoration: none;
@@ -208,4 +310,7 @@ nav a:hover {
     height: 50px;
     margin-bottom: 12px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+
+
+    
 }
