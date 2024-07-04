@@ -153,6 +153,16 @@ section {
     color: #000000;
 }
 
+
+.nav-toggle {
+    display: none;
+    font-size: 24px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
 .content {
     padding-top: 90px; /* Adjust based on the height of your navbar */
 }
