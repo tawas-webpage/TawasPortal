@@ -68,12 +68,17 @@ body {
 <body style="color:#ff3399;">
 
       <div class="side-navbar">
-        <ul>
-            <li><a href="#link1">Link 1</a></li>
-            <li><a href="#link2">Link 2</a></li>
-            <li><a href="#link3">Link 3</a></li>
-            <li><a href="#link4">Link 4</a></li>
-        </ul>
+         <div class="comment-section">
+        <h2>Comments</h2>
+        <div class="comment-form">
+            <input type="text" id="username" placeholder="Your name" required>
+            <br><br>
+            <textarea id="comment" rows="4" placeholder="Your comment" required></textarea>
+            <br><br>
+            <button onclick="addComment()">Submit</button>
+        </div>
+        <div id="comments-container"></div>
+     </div>
     </div>
 
     
