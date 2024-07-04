@@ -310,19 +310,22 @@ section {
 
 
 
+.playlist-container {
+    width: 100%;
+    height: 100%;
+    max-width: 222px; /* Adjust as needed */
+    max-height: 400px; /* Adjust as needed */
+    overflow-y: auto;
+    background-color: #ff3399;
+    border: 1px solid #ddd;
+}
 
-  .comment-section {
-            width: 50%;
-            margin: 0 auto;
-        }
-        .comment-form {
-            margin-bottom: 20px;
-        }
-        .comment {
-            border-bottom: 1px solid #ccc;
-            margin-bottom: 10px;
-            padding-bottom: 10px;
-        }
+.playlist-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
 
 @media screen and (max-width: 768px) {
     .side-menu {
