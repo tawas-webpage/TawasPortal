@@ -47,20 +47,29 @@ nav a:hover {
 .top-nav {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 98%;
     background-color: #000000;
-    overflow: hidden;
     z-index: 1000;
+    display: inline;
+    justify-content: flex-end; /* Aligns the items to the right */
+    padding-right: 20px; /* Add padding to the right for better spacing */
+}
 }
 
 .top-nav ul {
     list-style-type: none;
-    margin: 0;
+    margin: 90;
     padding: 80;
     display: flex;
     justify-content: flex-end; /* Aligns the items to the right */
     padding-right: 20px; /* Add padding to the right for better spacing */
+    overflow: hidden;
+    background-color: #000000;
+    color: #ff3399
+    display: flex; /* Use flexbox for alignment */
+    float: right;
 }
+
 }
 
    padding: 80;
