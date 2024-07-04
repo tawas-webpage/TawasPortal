@@ -265,17 +265,19 @@ section {
 }
 
 
+
 @media screen and (max-width: 768px) {
     .side-menu {
         width: 130px;
     }
 
     .content {
-        margin-left: 150px;
+        margin-left: 110px;
     }
     
     .myHeader {
-        margin-left: 150px;
+        margin-top: 100px;
+        margin-left: 70px;
         font-size: 0.8em;
     }
     
@@ -283,7 +285,7 @@ section {
     width: 6px; 
         
     }
-    
+        
      .nav-menu {
         display: none;
         flex-direction: column;
