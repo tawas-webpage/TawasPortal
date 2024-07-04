@@ -110,14 +110,19 @@ section {
     padding-right: 20px; /* Add padding to the right for better spacing */
 }
 
+
 .navbar ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 90;
+    padding: 60;
     overflow: hidden;
     background-color: #000000;
+    color: #ff3399
     display: flex; /* Use flexbox for alignment */
+    float: right;
 }
+
+ul {}
 
 .navbar ul li {
     float: left;
@@ -139,8 +144,9 @@ section {
 }
 
 .content {
-    padding-top: 80px; /* Adjust based on the height of your navbar */
+    padding-top: 90px; /* Adjust based on the height of your navbar */
 }
+
 
 .myHeader {
     background-color: black;
