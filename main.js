@@ -118,3 +118,28 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
+
+     function addComment() {
+            const username = document.getElementById('username').value;
+            const comment = document.getElementById('comment').value;
+
+            if (username && comment) {
+                const commentsContainer = document.getElementById('comments-container');
+
+                const commentDiv = document.createElement('div');
+                commentDiv.classList.add('comment');
+
+                const commentHeader = document.createElement('h4');
+                commentHeader.textContent = username;
+                commentDiv.appendChild(commentHeader);
+
+                const commentBody = document.createElement('p');
+                commentBody.textContent = comment;
+                commentDiv.appendChild(commentBody);
+
+                commentsContainer.appendChild(commentDiv);
+
+                document.getElementById('username').value = '';
+                document.getElementById('comment').value = '';
+            }
+        }
