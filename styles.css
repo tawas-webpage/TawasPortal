@@ -118,6 +118,7 @@ section {
     color: #ff3399;
     display: flex; /* Use flexbox for alignment */
     float: right;
+    font-size: 10px;
 }
 
 
@@ -159,7 +160,7 @@ section {
     padding: 50px;
     color: #ff3399;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 60px;
     width: 90%;
 
 }
