@@ -224,8 +224,8 @@ section {
 
 .side-navbar ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 5;
+    padding: 40;
 }
 
 .side-navbar ul li {
