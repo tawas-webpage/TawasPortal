@@ -102,7 +102,7 @@ section {
 .navbar {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 98%;
     background-color: #000000;
     z-index: 1000;
     display: inline;
