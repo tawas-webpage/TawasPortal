@@ -101,8 +101,8 @@ nav a:hover {
 }
 
 section {
-    padding: 3px 20px;
-    margin-top: 0px; /* Adjust this value if the nav bar height changes */
+    padding: px 20px;
+    margin-top: 40px; /* Adjust this value if the nav bar height changes */
 }
 /* styles.css */
 
