@@ -97,9 +97,9 @@ section {
 .navbar {
    position: fixed;
     top: 0;
-    margin-left: 120px;
+    margin-left: 150px;
     margin-right: 40px;
-    width: 75%;
+    width: 72%;
     background-color: #000000;
     z-index: 000;
     display: flex;
