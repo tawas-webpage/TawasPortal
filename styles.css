@@ -333,6 +333,11 @@ section {
   gap: 10px; /* Add space between the images */
 }
 
+.image-left {
+  display: flex;
+  justify-content: left;
+  gap: 10px; /* Add space between the images */
+}
 
 @media screen and (max-width: 768px) {
     .side-menu {
