@@ -335,8 +335,9 @@ section {
 
 .image-left {
   display: flex;
-  justify-content: left;
   gap: 10px; /* Add space between the images */
+  float: left;
+  margin: 0 10px 10px 0;
 }
 
 @media screen and (max-width: 768px) {
