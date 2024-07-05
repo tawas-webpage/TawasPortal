@@ -340,6 +340,10 @@ section {
   margin: 0 10px 10px 0;
 }
 
+.text-container {
+  flex: 1; /* Allows the text container to take up the remaining space */
+}
+
 @media screen and (max-width: 768px) {
     .side-menu {
         width: 130px;
